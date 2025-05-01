@@ -149,31 +149,27 @@ nav button:hover{
 
 .card{
     width: 280px;
-    position: relative;
     height: 120px;
     background-color: white;
     border-radius: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     cursor: pointer;
     padding-left: 20px;
 }
 
 .card .card_img{
     width: 140px;
-    position: absolute;
-    top:-20px;
-    left:-70px
 }
 
 .card .card_img img{
     width: 55%;
-    margin-left: 20%;
-
+    transform: translateY(-20px) translateX(-70px);
 }
 
 .card .card_details{
     padding:15px;
     padding-left: 7%;;
+    transform: translateY(-100px) translateX(-2px);
 }
 
 .card .card_details p{
