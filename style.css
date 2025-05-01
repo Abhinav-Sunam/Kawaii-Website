@@ -14,7 +14,6 @@ html {
 body {
     min-height: 100%;
     background: linear-gradient(360deg, #ffd9fd 0%, #ffffff 100%);
-    background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
