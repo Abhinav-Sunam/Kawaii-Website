@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JUICY</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="pink.png">
+
+    </head>
+
+<body>
+<!-- NAVBAR -->
+
+<nav>
+  <div class="logo">
+    <img src="./52401a50c424fc8d9d509af71f59e9e3.gif" alt="">
+  </div>
+
+  <ul>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Blog</a>
+    <a href="#">Contact</a>
+  </ul>
+
+  <button>Call Center</button>
+</nav>
+<!-- end of NAVBAR --> 
+ 
+<!--main section --> 
+<div class="main">
+  
+   <!-- main top-->
+    <div class="main_top">
+       <div class="left">
+         <h1>Get your <span>juice</span>, <br> get your health</h1>
+         <p>Sip sunshine with every drop and let your worries pop!
+          Bunnies bounce, flowers dance, and you glow from the inside out.
+          Sweet, squeezy happiness in every bottle — just for you! 🌸 💖 🎀 🍓</p>
+      <button>Get more info</button>
+        </div>
+        
+      <div class="right">
+        <img src="pink.png" alr="bottle" id="home_img">
+      </div>
+   </div>  
+   
+   <!-- main bottom-->
+   <div class="main_bottom">
+    <!-- 1st card -->
+      <div class="card" onclick="changeImg('pink.png')">
+        <div class="card_img">
+          <img src="pink.png">
+        </div>
+        <div class="card_details">
+          <h1>Peach Milk</h1>
+          <p>Creamy, dreamy & packed with peachy goodness!
+            A mellow mix that melts your stress away.</p>
+        </div>
+      </div>
+    
+    <!-- 2nd card   -->
+
+    <div class="card" onmouseover="changeImg('purple.png')" onmouseout="changeImg('pink.png')">
+
+      <div class="card_img">
+        <img src="purple.png">  
+      </div>
+      <div class="card_details">
+        <h1>Strawberry Juice</h1>
+        <p>Sweet, juicy and berry magical!
+          This blush-pink treat brings sunshine and sparkles to your day.</p>
+      </div>
+    </div>
+
+    <!-- 3rd card -->
+
+    <div class="card" onmouseover="changeImg('green.png')" onmouseout="changeImg('pink.png')">
+      <div class="card_img">
+        <img src="green.png">
+      </div>
+      <div class="card_details">
+        <h1>Apple Juice</h1>
+        <p>Fresh-picked fun in every drop!
+          Crisp, cool, and perfect for that refreshing fruity kick.</p>
+      </div>
+    </div>
+
+   </div> 
+</div>
+
+<script>
+
+  function changeImg (img) {
+    let home_img = document.querySelector('#home_img');
+
+    home_img.src=img;
+  }
+</script>
+
+<!-- end of main -->
+</body>
+</html>

@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    background: linear-gradient(360deg, #ffd9fd 0%, #ffffff 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 7% 0% 7%;
+}
+
+nav .logo{
+    width: 7%;
+}
+
+nav .logo img{
+    width: 150%;
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+
+nav ul{
+    display: flex;
+    margin-right: 12%;
+}
+
+nav ul a{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+    color: #454246;
+    margin: 10%;
+    transition: all 0.2s ease;
+}
+
+nav ul a:hover{
+    color: rgba(219, 71, 179, 0.86);
+}
+
+nav button{
+    padding:15px;
+    background-color: rgba(219, 71, 179, 0.86);
+    font-size: 15px;
+    border: none;
+    font-weight: 500;
+    border-radius: 25px;
+    color:white;
+    transition: all 0.5s ease;
+
+}
+
+nav button:hover{
+    background-color: rgba(255, 181, 235, 0.86);
+}
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    padding: 1 10%;
+}
+
+.main .main_top{
+    display: flex;
+    gap:4%;
+
+}
+
+.main .left{
+    display: flex;
+    flex-direction: column;
+    gap:8%;
+    padding: 5%;
+    padding-bottom: 0px;
+}
+
+.main_top .left h1{
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.main_top .left span{
+    color:rgba(219, 71, 179, 0.86)
+}
+
+.main_top .left p{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 15px;
+    color:rgb(0, 0, 0);
+}
+
+.main_top .left button{
+    
+    padding: 10px;
+    background-color:rgba(219, 71, 179, 0.86);
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    width: 150px;
+    cursor: pointer;
+    transition: all 1s ease;
+
+    
+}
+
+.main_top .left button:hover{
+    background-color:#ffffff;
+}
+
+.main_top .right{
+    width:450px;
+    height: 300px;
+    margin-right: 190px;
+    margin-top: 100px;
+
+}
+
+.main_top .right img{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.main_bottom{
+    margin-left: 10%;
+    padding-left: 10px;
+    display: flex;
+    gap:10%;
+    margin-top: 10%;
+    margin-bottom: 9%;
+}
+
+.card{
+    width: 280px;
+    position: relative;
+    height: 120px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+.card .card_img{
+    width: 140px;
+    position: absolute;
+    top:-20px;
+    left:-70px
+}
+
+.card .card_img img{
+    width: 55%;
+    margin-left: 20%;
+
+}
+
+.card .card_details{
+    padding:15px;
+    padding-left: 7%;;
+}
+
+.card .card_details p{
+    font-size: 13px;
+
+}
+
+.card .card_details h1{
+    font-size: 18px;
+}
